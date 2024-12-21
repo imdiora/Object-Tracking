@@ -7,7 +7,7 @@ face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_fronta
 body_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_fullbody.xml')
 
 # Path to video file
-video_path = "same_instance.mp4"
+video_path = "di.mp4"
 cap = cv2.VideoCapture(video_path)
 
 if not cap.isOpened():
