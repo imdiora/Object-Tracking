@@ -3,7 +3,7 @@ import numpy as np
 import time
 
 # Path to video file
-video_path = "small_instance.mp4"
+video_path = "di.mp4"
 cap = cv2.VideoCapture(video_path)
 
 if not cap.isOpened():
